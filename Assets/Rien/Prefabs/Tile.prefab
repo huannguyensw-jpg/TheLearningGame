@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5143273628389251940}
   - component: {fileID: 8139797701095426652}
   - component: {fileID: 4571258620878433532}
-  - component: {fileID: 2642538514539240258}
+  - component: {fileID: 5219569469675207106}
   m_Layer: 5
   m_Name: Tile
   m_TagString: Untagged
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -93,7 +93,7 @@ MonoBehaviour:
   m_EffectColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
   m_EffectDistance: {x: 3, y: 3}
   m_UseGraphicAlpha: 1
---- !u!114 &2642538514539240258
+--- !u!114 &5219569469675207106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5308621352493170669}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e36eb16bcfdf7d4baed53f966e3ee84, type: 3}
+  m_Script: {fileID: 11500000, guid: b2beeca274cad7444b778846e42a78ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Tile
 --- !u!1 &6788552801344534469
@@ -179,8 +179,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
