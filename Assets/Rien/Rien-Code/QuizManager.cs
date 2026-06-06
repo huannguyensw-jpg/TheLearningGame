@@ -13,6 +13,9 @@ public class QuizManager : MonoBehaviour
 
     private int score = 0;              // Biến lưu điểm
     private int currentlevel = 0;       // Câu hỏi hiện tại
+    public AudioSource audioSource;
+    public AudioClip correctSound;
+    public AudioClip wrongSound;
 
     void Start()
     {
@@ -22,6 +25,7 @@ public class QuizManager : MonoBehaviour
     // Hàm gọi khi bấm vào đáp án ĐÚNG
     public void correctAnswer()
     {
+        audioSource.PlayOneShot(correctSound);
         score++; // Cộng 1 điểm
         UpdateScoreDisplay(); // Cập nhật chữ hiển thị
 
@@ -43,6 +47,7 @@ public class QuizManager : MonoBehaviour
     // Hàm gọi khi bấm vào đáp án SAI
     public void wrongAnswer()
     {
+        audioSource.PlayOneShot(wrongSound);
         if (wrongAnswerPanel != null)
         {
             wrongAnswerPanel.SetActive(true);
