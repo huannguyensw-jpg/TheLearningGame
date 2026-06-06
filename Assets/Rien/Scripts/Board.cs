@@ -124,7 +124,7 @@ public class Board : MonoBehaviour
             if (tile.letter == word[i])
             {
                 tile.SetState(correctState);
-
+                
                 remaining = remaining.Remove(i, 1);
                 remaining = remaining.Insert(i, " ");
             }
