@@ -124,7 +124,7 @@ public class Board : MonoBehaviour
             if (tile.letter == word[i])
             {
                 tile.SetState(correctState);
-                
+
                 remaining = remaining.Remove(i, 1);
                 remaining = remaining.Insert(i, " ");
             }
@@ -157,14 +157,14 @@ public class Board : MonoBehaviour
         }
 
         if (HasWon(row)) {
-            enabled = false;
+            // enabled = false;
         }
 
         rowIndex++;
         columnIndex = 0;
 
         if (rowIndex >= rows.Length) {
-            enabled = false;
+            // enabled = false;
         }
     }
 
@@ -209,14 +209,14 @@ public class Board : MonoBehaviour
 
     private void OnEnable()
     {
-        tryAgainButton.SetActive(false);
-        newWordButton.SetActive(false);
+        // tryAgainButton.SetActive(false);
+        // newWordButton.SetActive(false);
     }
 
     private void OnDisable()
     {
-        tryAgainButton.SetActive(true);
-        newWordButton.SetActive(true);
+        // tryAgainButton.SetActive(true);
+        // newWordButton.SetActive(true);
     }
 
 }
