@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: 19ae68c3504d46e46ba80092aff73b92
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8842525461934915498
+    second: oto_do_choi_trong_suot_0
+  - first:
+      213: 4035120031838682817
+    second: oto_do_choi_trong_suot_1
+  - first:
+      213: 8691882257438065285
+    second: oto_do_choi_trong_suot_2
+  - first:
+      213: -2059527375071767411
+    second: oto_do_choi_trong_suot_3
+  - first:
+      213: 8327171692023018659
+    second: oto_do_choi_trong_suot_4
+  - first:
+      213: -1189128630483031750
+    second: oto_do_choi_trong_suot_5
+  - first:
+      213: 4304807975881813526
+    second: oto_do_choi_trong_suot_6
+  - first:
+      213: 3620763687026940684
+    second: oto_do_choi_trong_suot_7
+  - first:
+      213: 6237343415125522519
+    second: oto_do_choi_trong_suot_8
+  - first:
+      213: -1906901723451771883
+    second: oto_do_choi_trong_suot_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 275
+        width: 1040
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf3af3de06f6ba70800000000000000
+      internalID: 8842525461934915498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_1
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 499
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cebecb3a40aff730800000000000000
+      internalID: 4035120031838682817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_2
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 463
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582cd109cd4cf9870800000000000000
+      internalID: 8691882257438065285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_3
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 466
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8497a3a3c61b63e0800000000000000
+      internalID: -2059527375071767411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_4
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 441
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a478bed88e009370800000000000000
+      internalID: 8327171692023018659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 419
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39efc39fcd5f7fe0800000000000000
+      internalID: -1189128630483031750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_6
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 382
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e24b4db00cdbb30800000000000000
+      internalID: 4304807975881813526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_7
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 272
+        width: 240
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bdfd4c3698f3230800000000000000
+      internalID: 3620763687026940684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_8
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 234
+        width: 176
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758bda80ace7f8650800000000000000
+      internalID: 6237343415125522519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oto_do_choi_trong_suot_9
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 228
+        width: 156
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514b3185cf25985e0800000000000000
+      internalID: -1906901723451771883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      oto_do_choi_trong_suot_0: 8842525461934915498
+      oto_do_choi_trong_suot_1: 4035120031838682817
+      oto_do_choi_trong_suot_2: 8691882257438065285
+      oto_do_choi_trong_suot_3: -2059527375071767411
+      oto_do_choi_trong_suot_4: 8327171692023018659
+      oto_do_choi_trong_suot_5: -1189128630483031750
+      oto_do_choi_trong_suot_6: 4304807975881813526
+      oto_do_choi_trong_suot_7: 3620763687026940684
+      oto_do_choi_trong_suot_8: 6237343415125522519
+      oto_do_choi_trong_suot_9: -1906901723451771883
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
