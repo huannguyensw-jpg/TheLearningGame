@@ -10,6 +10,8 @@ public class SortingLevel
     [TextArea(2, 3)]
     public string conditionText;      // Yêu cầu đề bài riêng của câu này
     public float timeLimit = 30f;     // Thời gian giới hạn riêng cho câu này
+
+    
 }
 
 public class SortingManager : MonoBehaviour
@@ -33,6 +35,7 @@ public class SortingManager : MonoBehaviour
 
     private int totalCorrectItems = 0;
     private int sortedCorrectItems = 0;
+    public float timePenalty = 5f;
 
     void Start()
     {
@@ -102,7 +105,7 @@ public class SortingManager : MonoBehaviour
             item.gameObject.SetActive(false); // Biến mất đồ vật đúng
             sortedCorrectItems++;
             score += 10;
-            ShowFeedback("Chính xác! +10", Color.green);
+            ShowFeedback("Chính xác!", Color.green);
 
             // Nếu đã gom đủ tất cả đồ đúng của CÂU NÀY
             if (sortedCorrectItems >= totalCorrectItems)
@@ -112,7 +115,15 @@ public class SortingManager : MonoBehaviour
         }
         else
         {
-            ShowFeedback("Wrong!", Color.red);
+            // NẾU SAI: Trừ thời gian hiện tại
+            currentTimer -= timePenalty;
+            
+            // Nếu thời gian bị trừ âm luôn thì hệ thống tự động xử lý thua ở hàm Update
+            if (currentTimer < 0) currentTimer = 0; 
+
+            // Hiển thị chữ kèm số giây bị trừ để người chơi biết
+            ShowFeedback($"Sai rồi! -{timePenalty}s", Color.red);
+            
             item.ReturnToOldPositionWithPenalty();
         }
     }
