@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 035fdbbe186fe4d45b0dd0c3ccac3e52
+guid: 234a2839fd2cc8742b14250fc6936647
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7181108338002977503
-    second: haicau_0
+      213: -2261492888126241597
+    second: banh_kem_trong_suot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: haicau_0
+      name: banh_kem_trong_suot_0
       rect:
         serializedVersion: 2
-        x: 155
-        y: 94
-        width: 693
-        height: 681
+        x: 207
+        y: 218
+        width: 831
+        height: 859
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd2634c7cfb68a360800000000000000
-      internalID: 7181108338002977503
+      spriteID: 3c4c92d33309d90e0800000000000000
+      internalID: -2261492888126241597
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      haicau_0: 7181108338002977503
+      banh_kem_trong_suot_0: -2261492888126241597
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

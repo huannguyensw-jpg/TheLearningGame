@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 035fdbbe186fe4d45b0dd0c3ccac3e52
+guid: a73635c514cecc34e862680ff05e1903
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7181108338002977503
-    second: haicau_0
+      213: 997782256242856539
+    second: sushi_trong_suot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: haicau_0
+      name: sushi_trong_suot_0
       rect:
         serializedVersion: 2
-        x: 155
-        y: 94
-        width: 693
-        height: 681
+        x: 240
+        y: 260
+        width: 763
+        height: 745
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fd2634c7cfb68a360800000000000000
-      internalID: 7181108338002977503
+      spriteID: b521b82fca5d8dd00800000000000000
+      internalID: 997782256242856539
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      haicau_0: 7181108338002977503
+      sushi_trong_suot_0: 997782256242856539
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
