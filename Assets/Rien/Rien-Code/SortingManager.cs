@@ -92,7 +92,7 @@ public class SortingManager : MonoBehaviour
         {
             if (item.isCorrectItem) totalCorrectItems++;
         }
-
+        Debug.Log($"--- ĐÃ TẢI CÂU {index + 1} --- Số vật phẩm đúng cần tìm: {totalCorrectItems}");
         isGameActive = true;
     }
 
